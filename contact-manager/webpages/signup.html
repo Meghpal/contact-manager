@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Sign Up Page</title>
+    <link href="../vendors/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="row">
+            <div class="col">
+                <h1>Users Can Register</h1>
+                <hr />
+                </header>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <div class="row">
+                    <div class="col-md-6 col-xs-12">
+                        <form id="registerForm" action="./index.html" method=""  onSubmit="return checkPassword(this);">
+                            <div class="form-group">
+                                <label for="task">Add Name</label>
+                                <input type="text" id="name" class="form-control" required />
+
+                                <div class="form-group">
+                                    <label for="task">Email</label>
+                                    <input type="email" id="email" class="form-control" required />
+
+                                    <div class="form-group">
+                                        <label for="task">Password</label>
+                                        <input type="password" id="password1" class="form-control" name="password1"
+                                            required />
+                                        <div class="form-group">
+                                            <label for="task">Confirm Password</label>
+                                            <input type="password" id="password2" class="form-control" name="password2"
+                                                required />
+                                            
+
+                                        </div>
+                                        <button type="submit" class="btn btn-dark w-25">Submit</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript" src="../scripts/script.js"></script>
+
+</body>
+
+</html>
